@@ -1,7 +1,7 @@
 
 body {
     font-family: Arial, Helvetica, sans-serif;
-    overflow: hidden;
+    overflow-x: hidden;
 }
 
 a {
@@ -125,10 +125,40 @@ nav {
     color: #1a73e8;
 }
 
-.search-results {
-    color: rgb(95, 99, 104);
-    padding: 20px;
+.search-content {
     position: relative;
     left: 150px;
+    width: 793px;
+}
+
+.search-content .search-content-items {
+    margin-bottom: 28px;
+}
+
+.search-content .search-results {
+    color: rgb(95, 99, 104);
+    padding: 20px;
     font-size: 14px;
+}
+
+.search-content .url {
+    font-size: 14px;
+    color: #202124;
+    margin-bottom: 8px;
+}
+
+.search-content .url-name {
+    margin-bottom: 9px;
+}
+
+.search-content .url-name a {
+    font-size: 20px;
+    color: #1a0dab;
+}
+
+.search-content .url-content {
+    font-size: 14px;
+    font-family: Arial, Helvetica, sans-serif;
+    color: #202124;
+    line-height: 20px;
 }
